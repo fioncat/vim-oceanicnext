@@ -104,6 +104,7 @@ endfunction
   call s:hi('VertSplit',                          s:base00, s:base02, '',          '')
   call s:hi('ColorColumn',                        '',       s:base01, '',          '')
   call s:hi('CursorColumn',                       '',       s:base01, '',          '')
+  call s:hi('Blamer',                             s:base03, s:base01, '',          '')
   call s:hi('CursorLine',                         '',       s:base01, 'None',      '')
   call s:hi('CursorLineNR',                       s:orange, s:base01, '',          '')
   call s:hi('CursorLineNr',                       s:orange, s:base01, '',          '')
