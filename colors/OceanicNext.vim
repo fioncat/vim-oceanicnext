@@ -92,7 +92,8 @@ endfunction
   call s:hi('WarningMsg',                         s:red,    '',       '',          '')
   call s:hi('WildMenu',                           s:base07, s:blue,   '',          '')
   call s:hi('Title',                              s:blue,   '',       '',          '')
-  call s:hi('Conceal',                            s:blue,   s:base00, '',          '')
+  " This need to fix
+  call s:hi('Conceal',                            s:base07, s:base01, '',          '')
   call s:hi('Cursor',                             s:base00, s:base05, '',          '')
   call s:hi('NonText',                            s:base03, '',       '',          '')
   call s:hi('Normal',                             s:base07, s:base00, '',          '')
